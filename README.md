@@ -36,6 +36,7 @@ Untracked files:
 
 
 注意：
+build/target/product/base.mk中，添加如下：	
 在项目mk文件中添加PRODUCT_PACKAGES += \
  fsck.ntfs \
  libntfs-3g \
